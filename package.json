@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-iterator",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Symbol iterator.",
   "license": "Apache-2.0",
   "author": {
@@ -15,7 +15,6 @@
   ],
   "main": "./lib",
   "directories": {
-    "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
