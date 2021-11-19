@@ -20,7 +20,7 @@ limitations under the License.
 
 # Iterator Symbol
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Iterator [symbol][mdn-symbol] which specifies the default iterator for an object.
 
@@ -155,7 +155,7 @@ while ( v === void 0 || ( v.value < 10 && v.done === false ) ) {
 
 ## See Also
 
--   [`@stdlib/symbol/ctor`][@stdlib/symbol/ctor]: symbols.
+-   <span class="package-name">[`@stdlib/symbol/ctor`][@stdlib/symbol/ctor]</span><span class="delimiter">: </span><span class="description">symbols.</span>
 
 </section>
 
@@ -206,8 +206,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/symbol-iterator/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/symbol-iterator?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/symbol-iterator.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/symbol-iterator/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
