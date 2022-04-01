@@ -1,0 +1,28 @@
+{
+  "name": "@stdlib/symbol-iterator",
+  "version": "0.0.0",
+  "description": "Symbol iterator.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/symbol-iterator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "symbol",
+    "sym",
+    "iterator",
+    "iteration",
+    "for-of"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
