@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.IteratorSymbol;
+})();
 })();
 </script>
 ```
@@ -107,6 +109,7 @@ var s = typeof IteratorSymbol;
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@umd/browser.js"></script>
 <script type="text/javascript">
+(function () {
 (function () {
 
 var obj;
@@ -155,6 +158,7 @@ while ( v === void 0 || ( v.value < 10 && v.done === false ) ) {
     console.log( v.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -260,7 +264,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/symbol/ctor]: https://github.com/stdlib-js/symbol-ctor/tree/umd
+[@stdlib/symbol/ctor]: https://github.com/stdlib-js/symbol-ctor/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
