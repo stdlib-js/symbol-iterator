@@ -163,7 +163,7 @@ while ( v === void 0 || ( v.value < 10 && v.done === false ) ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/symbol/ctor`][@stdlib/symbol/ctor]</span><span class="delimiter">: </span><span class="description">symbols.</span>
+-   <span class="package-name">[`@stdlib/symbol-ctor`][@stdlib/symbol/ctor]</span><span class="delimiter">: </span><span class="description">symbols.</span>
 
 </section>
 
