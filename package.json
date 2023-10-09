@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-iterator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Symbol iterator.",
   "license": "Apache-2.0",
   "author": {
@@ -35,7 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-iterator-symbol-support": "^0.1.0"
+    "@stdlib/assert-has-iterator-symbol-support": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-symbol": "^0.1.1",
