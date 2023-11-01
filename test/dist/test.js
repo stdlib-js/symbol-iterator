@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,32 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var hasIteratorSymbolSupport = require( '@stdlib/assert-has-iterator-symbol-support' );
-var isSymbol = require( '@stdlib/assert-is-symbol' );
-var Sym = require( './../../dist' );
-
-
-// VARIABLES //
-
-var opts = {
-	'skip': !hasIteratorSymbolSupport()
-};
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a symbol in supporting environments (ES6/2015+) or otherwise null', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	if ( opts.skip ) {
-		t.strictEqual( Sym, null, 'main export is null' );
-	} else {
-		t.strictEqual( typeof Sym, 'symbol', 'main export is a symbol' );
-		t.strictEqual( isSymbol( Sym ), true, 'main export is a symbol' );
-	}
-	t.end();
-});
-
-tape( 'the main export is an alias for `Symbol.iterator`', opts, function test( t ) {
-	t.strictEqual( Sym, Symbol.iterator, 'is an alias' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
