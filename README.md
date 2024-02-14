@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@esm/index.mjs';
+import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@v0.2.0-esm/index.mjs';
 ```
 
 #### IteratorSymbol
@@ -94,7 +94,7 @@ var s = typeof IteratorSymbol;
 <body>
 <script type="module">
 
-import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@esm/index.mjs';
+import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@v0.2.0-esm/index.mjs';
 
 var obj;
 var v;
