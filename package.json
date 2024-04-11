@@ -35,7 +35,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-iterator-symbol-support": "^0.2.1"
+    "@stdlib/assert-has-iterator-symbol-support": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-symbol": "^0.2.1",
