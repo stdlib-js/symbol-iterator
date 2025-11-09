@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# Iterator Symbol
+# IteratorSymbol
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -109,8 +109,17 @@ var s = typeof IteratorSymbol;
 ```javascript
 var IteratorSymbol = require( '@stdlib/symbol-iterator' );
 
-var obj;
-var v;
+function done( value ) {
+    if ( arguments.length === 0 ) {
+        return {
+            'done': true
+        };
+    }
+    return {
+        'value': value,
+        'done': true
+    };
+}
 
 function iterator() {
     var iter;
@@ -135,21 +144,10 @@ function iterator() {
             'done': false
         };
     }
-
-    function done( value ) {
-        if ( arguments.length === 0 ) {
-            return {
-                'done': true
-            };
-        }
-        return {
-            'value': value,
-            'done': true
-        };
-    }
 }
 
-obj = iterator();
+var obj = iterator();
+var v;
 while ( v === void 0 || ( v.value < 10 && v.done === false ) ) {
     v = obj.next();
     console.log( v.value );
