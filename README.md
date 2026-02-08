@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@deno/mod.js';
+import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@v0.2.3-deno/mod.js';
 ```
 
 #### IteratorSymbol
@@ -89,7 +89,7 @@ var s = typeof IteratorSymbol;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@deno/mod.js';
+import IteratorSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-iterator@v0.2.3-deno/mod.js';
 
 function done( value ) {
     if ( arguments.length === 0 ) {
